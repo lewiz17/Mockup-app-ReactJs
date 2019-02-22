@@ -20,14 +20,14 @@
     <img src="https://i.imgur.com/JgMuVRD.png" />
 </p>
 
-## What has inside :pushpin:
+## :pushpin: What has inside
 
 - React 16 :heavy_check_mark:
 - React router 4 :heavy_check_mark:
 - Webpack 4 :heavy_check_mark:
 - Babel 7 :heavy_check_mark:
 
-## Setup :pushpin:
+## :pushpin: Setup 
 
 ```
 git clone https://github.com/lewiz17/Mockup-app-ReactJs
@@ -35,16 +35,16 @@ cd Mockup-app-ReactJs
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### :pushpin: Compiles and hot-reloads for development
 ```
 npm run start
 ```
 
-### Compiles and minifies for production
+### :pushpin: Compiles and minifies for production
 ```
 npm run build
 ```
-### Functions on proyect
+### :pushpin: Functions on proyect
 
 - Data JSON :heavy_check_mark:
 - Search :heavy_check_mark:
