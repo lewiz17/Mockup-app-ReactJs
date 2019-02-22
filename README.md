@@ -46,8 +46,8 @@ npm run build
 ```
 ### Functions on proyect
 
-- Data JSON
-- Search 
+- Data JSON :heavy_check_mark:
+- Search :heavy_check_mark:
 - Filter by Sale :heavy_check_mark:
 - Filter by Favorite :heavy_check_mark:
 - Filter by Date :heavy_check_mark:
