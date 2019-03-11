@@ -44,7 +44,7 @@ npm run start
 ```
 npm run build
 ```
-### :pushpin: Functions on proyect
+### :pushpin: Features on proyect
 
 - Data JSON :heavy_check_mark:
 - Search :heavy_check_mark:
