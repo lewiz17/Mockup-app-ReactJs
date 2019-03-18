@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6321b2e9-4c13-4472-9db4-a7373ba9ca7f/deploy-status)](https://app.netlify.com/sites/musing-varahamihira-d7fd2d/deploys)
+
 <p align="center">
     <h2 align="center">Mockup App ReactJS Webpack</h2>
 </p>
