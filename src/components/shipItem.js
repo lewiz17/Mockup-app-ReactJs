@@ -8,6 +8,7 @@ class ShipItem extends Component {
           qt: 1,
         }
         this.updatePrice = this.updatePrice.bind(this);
+        this.preventDel = this.preventDel.bind(this);
     }
 
     updatePrice(v){
@@ -15,6 +16,14 @@ class ShipItem extends Component {
             qt: parseInt(v.target.value)
         })
     }
+
+    preventDel(v){
+        if (v.keyCode == 8){
+            v.preventDefault();
+        }
+    }
+
+    
 
     render() {
         const {ship} = this.props; 
@@ -37,7 +46,7 @@ class ShipItem extends Component {
                     <i className="icon icon-truck icon-3x">&#xe809;</i>
                     <div className="value-ship">
                         <span className="price">{"$"+ship.price*this.state.qt+".00"}</span>
-                        <span className="qty"><input type="number" min="1" max="10" step="1" value={this.state.qt} onChange={(e) => {this.updatePrice(e)}} className="input_q"/></span>
+                        <span className="qty"><input type="number" min="1" max="10" step="1" value={this.state.qt} onChange={(e) => {this.updatePrice(e)}} onKeyDown={(e) => {this.preventDel(e)}} className="input_q"/></span>
                     </div>                        
                 </div> 
             </li>
